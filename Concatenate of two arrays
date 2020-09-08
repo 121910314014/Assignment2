@@ -1,0 +1,47 @@
+from numpy import*
+from array import*
+arr=array('i',[])
+num=int(input("Enter the length of array 1"))
+for i in range(num):
+    l=int(input("Enter the next value"))
+    arr.append(l)
+    print(arr)
+    
+arr2=array('i',[])
+num2=int(input("Enter the length of array 2"))
+for i in range(num2):
+    k=int(input("Enter the  value of array"))
+    arr.append(k)
+    print(arr2)
+print("Concatinated array is")
+print(concatenate([arr,arr2]))
+       
+output:
+Enter the length of array 1 2
+
+Enter the next value5
+array('i', [5])
+
+Enter the next value6
+array('i', [5, 6])
+
+Enter the length of array 26
+
+Enter the  value of array1
+array('i')
+Enter the  value of array2
+array('i')
+
+Enter the  value of array3
+array('i')
+
+Enter the  value of array4
+array('i')
+
+Enter the  value of array5
+array('i')
+
+Enter the  value of array6
+array('i')
+Concatinated array is
+[5 6 1 2 3 4 5 6]
