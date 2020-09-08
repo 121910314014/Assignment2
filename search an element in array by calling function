@@ -1,0 +1,43 @@
+from numpy import*
+from array import*
+def find_array(n):
+    k=0
+    for e in arr:
+        if e==n:
+            print("Index value u searched for is in")
+            print(k)
+            break
+        k+=1
+    else:
+         print("Enter the correct element")
+arr=array('i',[])
+num=int(input("Enter the length of array"))
+for i in range(num):
+l=int(input("Enter the  values of the array"))
+arr.append(l)
+print(arr)
+n=int(input("Enter the number to search"))
+find_array(n)
+       
+       
+output:
+Enter the length of array 5
+
+Enter the  values of the array 1
+array('i', [1])
+
+Enter the  values of the array 2
+array('i', [1, 2])
+
+Enter the  values of the array 3
+array('i', [1, 2, 3])
+
+Enter the  values of the array 4 
+array('i', [1, 2, 3, 4])
+
+Enter the  values of the array 5
+array('i', [1, 2, 3, 4, 5])
+Enter the number to search 3
+Index value u searched for is in
+2
+
